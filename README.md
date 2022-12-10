@@ -1,12 +1,16 @@
-# Rocinante theme for Hugo
+# Blog theme for Hugo
 
-######  [Demo link](https://sidverma.io/hugo-rocinante/)
+<!-- ######  [Demo link](https://sidverma.io/hugo-rocinante/) -->
 
-Rocinante is a simple responsive blog theme with minimal non-essential components. It supports normal blog posts and photoblogs.
+Minimal theme based on the [Rocinante](https://github.com/mavidser/hugo-rocinante) theme.
 
+A simple responsive blog theme with minimal non-essential components.
+
+<!--
 ![Rocinante Screenshot 1](https://raw.githubusercontent.com/mavidser/hugo-rocinante/master/images/tn.png)
 
 ![Rocinante Screenshot 2](https://raw.githubusercontent.com/mavidser/hugo-rocinante/master/images/screenshot.png)
+-->
 
 ## Features
 
@@ -16,13 +20,15 @@ Rocinante is a simple responsive blog theme with minimal non-essential component
 - RSS Feeds
 - No essential Javascript
 
+<!--
 The only javascript in the theme is for an optional enhancement to Email link, where it shows the email ID upon clicking such links. See the demo on the 'Email' link on [the demo website](https://sidverma.io/hugo-rocinante/). If javascript is disabled, it works as a normal link.
+-->
 
 ## Installation
 
 Inside the folder of your Hugo site run:
 
-    $ git submodule add https://github.com/mavidser/hugo-rocinante.git themes/rocinante
+    git submodule add https://github.com/dominiwe/hugo-dw-blog.git themes/dw-blog
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -37,8 +43,8 @@ Example:
 ```toml
 baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "Rocinante"
-theme = "rocinante"
+title = "Mysite"
+theme = "dw-blog"
 paginate = 3
 
 [markup]
